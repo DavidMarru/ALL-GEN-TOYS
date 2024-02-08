@@ -1,0 +1,132 @@
+.SC-container {
+    display: flex;
+    height: fit-content;
+    padding: 2.5rem 0;
+    
+}
+
+.SC-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+}
+
+
+.SC-text *{
+    text-decoration: none;
+}
+.SC-text {
+    display: flex;
+    background: var(--p6);
+    height: fit-content;
+}
+
+.our-products {
+    border-bottom: 1px solid var(--p4);
+}
+
+.sc-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.sc-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.SC-image {
+    background-image: url('./images/fidgetSpinner1.png.png');
+    position: relative;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.568);
+    height: 70vh;
+  }
+
+.SC-image p{
+    margin: 0.5rem;
+    color: black;
+    border-bottom: 1px solid black;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SC-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.568);
+
+}
+
+
+.SC-text * {
+    color: var(--p1);
+}
+
+.SC-text a{
+    color: var(--p3);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px solid var(--p3);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    width: fit-content; 
+    margin-left: auto;
+}
+
+.SC-text a:hover{
+    border: 3px solid var(--p1);
+    color: var(--dWhite1);
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 904px) {
+
+    .SC-container {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .SC-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .sc-left {
+        gap: 3rem;
+    }
+    .sc-right {
+        width: 100%;
+
+    }
+
+
+    .SC-text {
+        gap: 2rem;
+    }
+
+    .SC-image {
+        height: 80vw;
+        aspect-ratio: 1;
+
+    }
+
+    .SC-image p{
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,92 @@
+:root {
+    --overlay :hsla(0, 0%, 0%, 0.572);
+  
+    --font-colour : #472500;
+    --font-colourj : hsl(34, 83%, 89%);
+    --j2 : #f3cc77;
+    --j3 : #1d180e;
+
+    --dWhite1 : white;
+    --dBlack1 : black;
+    --dBlack2 : rgb(24, 24, 24);
+
+
+    --p1 : #F2EBF0 ;
+    --p2 : #916B62 ;
+    --p3 : #7F97AC ;
+    --p4 : #c9ab71 ;
+    /* --p4 : #AA5743 ; */
+    --p5 : #634400 ;
+    --p6 : #1d1d1d;
+  
+    
+    --background-colour1: hsl(0, 0%, 2%);
+  
+    --background-colour2: hsl(41, 84%, 71%);
+    /* --background-colour2: hsl(31, 100%, 16%); */
+    --background-colour3: rgb(255, 242, 233);
+  
+  
+    --hero-colour: hsl(34, 83%, 89%) ;
+    --hero-colourproduct: hsl(0, 14%, 1%) ;
+  
+  
+    --catrlog-colour: hsl(30, 100%, 14%);
+    --catrlog-colourV: hsl(30, 100%, 20%);
+  
+    --cartlog-BGC: hsl(30, 50%, 40%);
+  
+  
+    --NavBtn-colour-blue1-1:hsl(211, 100%, 50%, 0.2);
+  
+    --btn-colour-1-1: hsla(30, 100%, 14%, 0.4);
+    --btn-colourV-1-1: hsla(30, 100%, 14%, 0.8);
+    --btn-colour-2-2: hsl(30, 100%, 20%);
+    --btn-colourV-2-2: hsl(204, 100%, 37%);
+    
+    --background-colourTranp: hsla(0, 0%, 29%, 0.3) ;
+    --background-colourTranp2: hsla(30, 100%, 14%, 0.589);
+    --background-colourTranp3:hsla(30, 100%, 14%, 0.583);
+  
+    --CardBGC: hsla(0, 0%, 0%, 0);
+  
+  
+    --fonts: #FFF1D0;
+    --mainBG1: #06AED5;
+    --mainBG2: #086788;
+  
+  }
+  
+  :root /*placement*/ {
+    --Hero-y-size:95svh;
+    --product-tital-size:10svh;
+  
+    --nav-y:2rem;
+    --md-nav-y:2rem;
+  
+    --nav-x:1rem;
+    --md-nav-x:6rem;
+
+  
+  }
+  
+  :root /*font*/ {
+    --nav-size:1rem;
+    --cart-size:1.75rem; 
+    --BoldT1:'Red Hat Text', sans-serif;
+  }
+  
+  :root /*font Media*/ {
+    --h2:2vw;
+    --h2-MD:4.5vw;
+  
+    --md-cart-y:1.5rem;
+    --md-cart-x:1.5rem;
+  
+    --count-size:1.5rem;
+    
+  
+    --md-nav-size:1rem;
+  
+    --md-cart-size:2rem;
+  }

@@ -1,0 +1,188 @@
+.cart-Wrapper {
+  margin-inline: 5rem;
+}
+
+.cart-container{
+  display: block;
+}
+
+.cart-container *{
+  color: var(--p1);
+}
+
+.Cart-header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.Cart-header * {
+  border-bottom: 3px var(--p1) solid;
+}
+
+.Discount-Applied {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.cart-content{
+  display: flex;
+  font-size: 1.5vw;
+
+}
+
+
+.Shopping-bag {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+.cart-cards img {
+  display: flex;
+  aspect-ratio: 1;
+  margin-bottom: 10px;
+  height: 15vw;
+  border-radius: 5px;
+}
+
+.cart-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+
+
+.cart-cards{
+  display: flex;
+  gap: 1rem;
+  height: fit-content;
+}
+
+.sub-container{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.cart-sub{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  gap: 1.5rem;
+}
+
+  .quantity {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .quantity input{
+    width: 2rem;
+    color: black;
+  }
+
+  .discont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .discont-input a {
+    margin-left: 1rem;
+  }
+  
+  .discont-input input {
+    margin: 0;
+    border: none ;
+    font-size: 1.5vw;
+    outline: none;
+  }
+
+  .discount-Message {
+    font-size: 1.3vw;
+    margin-top: 0.5em;
+  }
+
+  .cost {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+
+  .cost > div {
+    display: flex;
+    border-bottom:3px solid var(--p1) ;
+    padding:0 0 0.5rem ;
+  }
+
+  .number { 
+    margin-left: auto;
+  }
+
+  .cart-sub a, .cart-sub input {
+    width: fit-content;
+    padding-inline: 2px;
+  }
+  .cart-sub a, .removeBtn{
+    border-radius: 5px;
+    border: 3px solid var(--p1);
+    padding-inline: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .cart-sub a:hover {
+    border: 3px solid var(--p1);
+    color: var(--p1);
+  }
+
+  .removeBtn {
+    text-align: center;
+  }
+
+  .checkOut-Btn {
+    margin-left: auto;
+  }
+
+  .showCart {
+    z-index: 998;
+
+  }
+
+  @media (max-width: 680px) {
+  
+  .Shopping-bag, .sub-container {
+      width: 100%;
+  }
+
+  .cart-cards{
+      width: 10rem;
+  }
+
+  .cart-cards img{
+    height: 30vw;
+  }
+  .cart-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2vw;
+      font-size: 3.5vw;
+    }
+
+    .sub-container{
+      font-size: 3.5vw;
+      margin-bottom: 5rem;
+    }
+
+    .discount-Message {
+      font-size: 2.5vw;
+    }
+
+  }
