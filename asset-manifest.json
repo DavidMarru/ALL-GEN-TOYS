@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ALL-GEN-TOYS/static/css/main.e14950fe.css",
+    "main.js": "/ALL-GEN-TOYS/static/js/main.9e7990dc.js",
+    "static/media/kids lego toys 8a6fcc7f-04ac-4966-934f-30ddc8a0cbb5.png": "/ALL-GEN-TOYS/static/media/kids lego toys 8a6fcc7f-04ac-4966-934f-30ddc8a0cbb5.fcbe82b1a2b921514304.png",
+    "static/media/kids Play 100-P 306cbc93-5436-4d70-ba71-225895250206.png": "/ALL-GEN-TOYS/static/media/kids Play 100-P 306cbc93-5436-4d70-ba71-225895250206.dd180ac233be82136cf9.png",
+    "static/media/Hero2.png": "/ALL-GEN-TOYS/static/media/Hero2.fc13cf4de680faa3d608.png",
+    "static/media/fidget spinner 35d6b5a9-7c07-4a7a-b409-9cc75f5ed653.png": "/ALL-GEN-TOYS/static/media/fidget spinner 35d6b5a9-7c07-4a7a-b409-9cc75f5ed653.9916a24392d73476b751.png",
+    "static/media/KidT1.png": "/ALL-GEN-TOYS/static/media/KidT1.61dbd1204a8c192651d0.png",
+    "static/media/KidT2.png": "/ALL-GEN-TOYS/static/media/KidT2.0b281a99e956c53e63e4.png",
+    "static/media/KidT3.png": "/ALL-GEN-TOYS/static/media/KidT3.2856289aec785388210b.png",
+    "static/media/KidT4.png": "/ALL-GEN-TOYS/static/media/KidT4.de38f3894a7898a04c82.png",
+    "static/media/fidgetSpinner1.png.png": "/ALL-GEN-TOYS/static/media/fidgetSpinner1.png.a54012b41a7b5c7c8ba5.png",
+    "index.html": "/ALL-GEN-TOYS/index.html",
+    "main.e14950fe.css.map": "/ALL-GEN-TOYS/static/css/main.e14950fe.css.map",
+    "main.9e7990dc.js.map": "/ALL-GEN-TOYS/static/js/main.9e7990dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e14950fe.css",
+    "static/js/main.9e7990dc.js"
+  ]
+}
